@@ -25,7 +25,8 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
-        "cordoval/symfony2simulator": "dev-master"
+        "cordoval/symfony2simulator": "dev-master@dev",
+        "igorw/yolo": "dev-master@dev"
     },
     "scripts": {
         "post-install-cmd": [
@@ -46,7 +47,7 @@
     "config": {
         "bin-dir": "bin"
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "extra": {
         "symfony-app-dir": "app",
         "symfony-web-dir": "web",
