@@ -55,7 +55,16 @@ doctrine:
 
     orm:
         auto_generate_proxy_classes: %kernel.debug%
-        auto_mapping: true
+        entity_managers:
+            default:
+                mappings:
+                    CordovalSimulatorBundle:
+                        mapping: true
+                        type: xml
+                        dir: "%kernel.root_dir%/../vendor/cordoval/symfony2simulator/src/Simulator/Infrastructure/Symfony/Bundle/SimulatorBundle/Resources/config/doctrine"
+                        alias: ~
+                        prefix: Simulator\Domain\Model\Exam
+                        is_bundle: false
 
 # Swiftmailer Configuration
 swiftmailer:
