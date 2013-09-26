@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cordoval/symfony2simulator.git",
-                "reference": "f9ebff3d303dd68d50933a910db0f6bef6c31d6b"
+                "reference": "4e5b3c23db29c827cd7287877b78dac35f1efc7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cordoval/symfony2simulator/zipball/f9ebff3d303dd68d50933a910db0f6bef6c31d6b",
-                "reference": "f9ebff3d303dd68d50933a910db0f6bef6c31d6b",
+                "url": "https://api.github.com/repos/cordoval/symfony2simulator/zipball/4e5b3c23db29c827cd7287877b78dac35f1efc7c",
+                "reference": "4e5b3c23db29c827cd7287877b78dac35f1efc7c",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "source": "https://github.com/cordoval/symfony2simulator/tree/master",
                 "issues": "https://github.com/cordoval/symfony2simulator/issues"
             },
-            "time": "2013-09-24 15:28:29"
+            "time": "2013-09-26 00:05:27"
         },
         {
             "name": "doctrine/annotations",
