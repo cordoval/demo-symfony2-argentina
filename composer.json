@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:cordoval/symfony2simulator"
+            "url": "git@github.com:cordoval/ExamSimulator"
         }
     ],
     "require": {
@@ -25,7 +25,7 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
-        "cordoval/symfony2simulator": "dev-master@dev",
+        "cordoval/exam-simulator": "dev-master@dev",
         "stack/builder": "~1.0@dev",
         "stack/url-map": "~1.0@dev",
         "stack/lazy-http-kernel": "~1.0@dev"

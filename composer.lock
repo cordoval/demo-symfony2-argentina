@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "51b7c81d1afb8ffe18e32e1aad928526",
+    "hash": "36be7cc25489fc395e1625759eca50ef",
     "packages": [
         {
-            "name": "cordoval/symfony2simulator",
+            "name": "cordoval/exam-simulator",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/cordoval/symfony2simulator.git",
-                "reference": "4e5b3c23db29c827cd7287877b78dac35f1efc7c"
+                "url": "https://github.com/cordoval/ExamSimulator.git",
+                "reference": "9539a485ccb32ba7c80b76c2e327cad9a6abdff0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cordoval/symfony2simulator/zipball/4e5b3c23db29c827cd7287877b78dac35f1efc7c",
-                "reference": "4e5b3c23db29c827cd7287877b78dac35f1efc7c",
+                "url": "https://api.github.com/repos/cordoval/ExamSimulator/zipball/9539a485ccb32ba7c80b76c2e327cad9a6abdff0",
+                "reference": "9539a485ccb32ba7c80b76c2e327cad9a6abdff0",
                 "shasum": ""
             },
             "require": {
@@ -41,12 +41,12 @@
             "license": [
                 "MIT"
             ],
-            "description": "Symfony2 Exam Simulator",
+            "description": "Exam Simulator",
             "support": {
-                "source": "https://github.com/cordoval/symfony2simulator/tree/master",
-                "issues": "https://github.com/cordoval/symfony2simulator/issues"
+                "source": "https://github.com/cordoval/ExamSimulator/tree/master",
+                "issues": "https://github.com/cordoval/ExamSimulator/issues"
             },
-            "time": "2013-09-26 00:05:27"
+            "time": "2013-09-26 02:27:23"
         },
         {
             "name": "doctrine/annotations",
@@ -1696,7 +1696,7 @@
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "cordoval/symfony2simulator": 20,
+        "cordoval/exam-simulator": 20,
         "stack/builder": 20,
         "stack/url-map": 20,
         "stack/lazy-http-kernel": 20

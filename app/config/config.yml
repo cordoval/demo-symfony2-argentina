@@ -61,7 +61,7 @@ doctrine:
                     CordovalSimulatorBundle:
                         mapping: true
                         type: xml
-                        dir: "%kernel.root_dir%/../vendor/cordoval/symfony2simulator/src/Simulator/Infrastructure/Symfony/Bundle/SimulatorBundle/Resources/config/doctrine"
+                        dir: "%kernel.root_dir%/../vendor/cordoval/exam-simulator/src/Simulator/Infrastructure/Symfony/Bundle/SimulatorBundle/Resources/config/doctrine"
                         alias: ~
                         prefix: Simulator\Domain\Model\Exam
                         is_bundle: false
