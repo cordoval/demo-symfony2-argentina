@@ -28,7 +28,8 @@
         "cordoval/symfony2simulator": "dev-master@dev",
         "igorw/yolo": "dev-master@dev",
         "stack/builder": "~1.0@dev",
-        "stack/url-map": "~1.0@dev"
+        "stack/url-map": "~1.0@dev",
+        "stack/lazy-http-kernel": "~1.0@dev"
     },
     "scripts": {
         "post-install-cmd": [

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8685473d2d65f9e0d499e602a11dcf3a",
+    "hash": "5245b97cf6f547f64376361cbb0e88e6",
     "packages": [
         {
             "name": "cordoval/symfony2simulator",
@@ -1172,6 +1172,57 @@
             "time": "2013-08-02 13:05:55"
         },
         {
+            "name": "stack/lazy-http-kernel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/stackphp/LazyHttpKernel.git",
+                "reference": "2fc0867de5fbe17afdc34b42aadb7cb99403ad97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/stackphp/LazyHttpKernel/zipball/2fc0867de5fbe17afdc34b42aadb7cb99403ad97",
+                "reference": "2fc0867de5fbe17afdc34b42aadb7cb99403ad97",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "symfony/http-foundation": "~2.1",
+                "symfony/http-kernel": "~2.1"
+            },
+            "require-dev": {
+                "stack/callable-http-kernel": "~1.0@dev",
+                "stack/url-map": "~1.0@dev"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Stack": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Wiedler",
+                    "email": "igor@wiedler.ch",
+                    "homepage": "http://wiedler.ch/igor/"
+                }
+            ],
+            "description": "HttpKernelInterface lazy proxy.",
+            "keywords": [
+                "stack"
+            ],
+            "time": "2013-06-06 09:05:06"
+        },
+        {
             "name": "stack/url-map",
             "version": "dev-master",
             "source": {
@@ -1710,7 +1761,8 @@
         "cordoval/symfony2simulator": 20,
         "igorw/yolo": 20,
         "stack/builder": 20,
-        "stack/url-map": 20
+        "stack/url-map": 20,
+        "stack/lazy-http-kernel": 20
     },
     "platform": {
         "php": ">=5.3.3"
